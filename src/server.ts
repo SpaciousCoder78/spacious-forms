@@ -14,7 +14,7 @@ app.get("/",(req,res,next)=>{
 })
 
 //declaring http port
-var HTTP_PORT=8000;
+let HTTP_PORT:any=8000;
 //starting the server
 app.listen(HTTP_PORT,()=>{
     //printing port 
