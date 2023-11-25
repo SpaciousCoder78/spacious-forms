@@ -1,8 +1,8 @@
 //###################################Backend##################################################
 //calling express js 
-import express, { Router } from "express";
+import express, { Router } from 'express';
 //importing database to server
-import db from './database.js';
+import db from './database.ts';
 //creating app server using express() function
 let app = express();
 
