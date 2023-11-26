@@ -1,13 +1,14 @@
 <script setup lang='ts'>
-import HelloWorld from './components/HelloWorld.vue'
+
 
 </script>
 
+
 <template>
-  <div id="app" class="h-screen">
-    <VueformBuilder />
+  <div id="app">
+    <h1>hello</h1>  
   </div>
-  <HelloWorld msg="Vite + Vue" />
+  
 </template>
 
 <style scoped>
